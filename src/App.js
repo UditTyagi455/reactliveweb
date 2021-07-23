@@ -16,7 +16,7 @@ const App = () =>{
    
    const fetchApi = async () =>{
 
-    console.log(process.env.REACT_APP_API_KEY)
+    
      try{
      const {data} = await Axios.get(`https://pixabay.com/api/?key=${process.env.REACT_APP_API_KEY}&q=${term}&image_type=photo`);
      //console.log(data.hits);
