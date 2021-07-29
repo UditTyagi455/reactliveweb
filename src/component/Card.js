@@ -6,14 +6,14 @@ const Card =({images}) =>{
    
    return(
     <div>
-    <div className="max-w-sm rounded overflow-hidden shadow-lg mt-20">
+    <div className="xl:max-w-sm rounded overflow-hidden shadow-lg mt-20">
 <img src={images.webformatURL} alt="Not Found" className="w-full"/>
 <div className="px-6 py-4">
  <div className="text-purple-500 text-bold text-xl mb-2">by {images.user}</div>
  <div >
   <ul>
     <li>
-      <strong>Views :</strong>
+      <strong>Views :</strong>           
       {images.views}
     </li>
     <li>
